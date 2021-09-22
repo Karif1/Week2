@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Tournament Registration</h1>
+    <br> <br>
+    <form>
+        <fieldset>
+            <legend>Who are you?</legend>
+            <input name="textbox" id="textbox" type="text"
+            placeholder="Given Name">
+            <br> <br>
+            <input name="textbox" id="textbox" type="text"
+            placeholder="Gamer Tag">
+            <br> <br>
+            <input min="18" name="someNumber" id="someNumber" type="number"
+            placeholder="Age">
+            <br> <br>
+            <input name="emailAddress" id="emailAddress" type="email"
+            placeholder="Email">
+        </fieldset>
+        <fieldset>
+            <legend>Pick your Poison</legend>
+            <label for="radiochoices">Madden 21</label>
+            <input type="radio" name="radioChoice" value="Madden 21">
+            <br>
+            <label for="radiochoices">NBA 2K21</label>
+            <input type="radio" name="radioChoice" value="NBA 2K21">
+            <br>
+            <label for="radiochoices">Fifa 21</label>
+            <input type="radio" name="radioChoice" value="Fifa 21">
+            <br>
+            <label for="radiochoices">Destruction All-stars</label>
+            <input type="radio" name="radioChoice" value="Destruction All-stars">
+
+            <fieldset>
+            <legend>
+                Time and Place
+            </legend>
+            <label> for="datetimePicker">Best Time For You</label>
+            <input type="datetime-local" name="datetimePicker">
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>
